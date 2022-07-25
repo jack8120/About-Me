@@ -1,47 +1,63 @@
+'use strict';
 
+function clicked() {
+   let name = prompt("Please enter your name?")
+      document.getElementById("name").innerHTML = "Hi " + name + " welcome to my site";
+}
 
-    function clicked() {
+    function clickez() {
       let music = prompt('Do I like music?(Yes/No)');
       let MUSIC = music.toUpperCase();
       if
-      (MUSIC === "YES") {
+      (MUSIC === "YES" || MUSIC === "NO") {
          console.log("MUSIC");
-         alert("Thankyou");}
-         else {
-        alert ("Enter YES or NO");
+         alert("Thankyou");
+        }
+         else{
+        alert("Enter YES or NO");
     }
 
       let guitar = prompt('Do I have enough guitars?(Yes/No)');
       let GUITAR = guitar.toUpperCase();
-      if(GUITAR === "YES") {
+      if(GUITAR === "YES" || GUITAR === "NO") {
          console.log("GUITAR");   
          alert("Thankyou");
       }
        else{
-            alert ("Seriously?");
+            alert ("Enter YES or NO");
         }
         
 
       let instrument = prompt('Do you play an instrument?(Yes/No)');
       let INSTRUMENT = instrument.toUpperCase();
-      if(INSTRUMENT === "YES") {
+      if(INSTRUMENT === "YES" || INSTRUMENT === "NO") {
         console.log("INSTRUMENT");   
         alert("Thankyou");
      }
       else{
-           alert ("Seriously?");
+           alert ("Enter YES or NO");
        }
 
       let buy = prompt("Do you need guitar lessons? (Yes/No)");
       let BUY = buy.toUpperCase();
-      if(BUY === "YES") {
+      if(BUY === "YES" || BUY === "NO") {
         console.log("BUY");   
         alert("Thankyou");
      }
       else{
-           alert ("Seriously?");
+           alert ("Enter YES or NO");
        }
 
+       let which = prompt('Is Acoustic guitar better than electric Guitar?');
+       let WHICH = which.toUpperCase();
+       if(WHICH === "YES" || GUITAR === "NO") {
+          console.log("GUITAR");   
+          alert("Thankyou");
+       }
+        else{
+             alert ("Enter YES or NO");
+          
+        }
       
       console.log(MUSIC + GUITAR + INSTRUMENT + BUY);
 
