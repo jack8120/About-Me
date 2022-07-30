@@ -63,4 +63,28 @@ function clicked() {
 
     }
 
- 
+    function sixth() {
+
+        for(let i = 0; i<4; i++){
+
+        let favnum = prompt("Enter a number between 1-100");
+        let favnumguess = parseInt(favnum);
+        let answer = 67;
+    
+           if(favnumguess === answer){
+            alert("WINNER !!");
+           }   
+
+           else if(favnumguess > answer){
+            alert("Too High !");
+           }
+
+           else{
+           alert("Too Low !");}
+
+           document.getElementById("favnum").innerHTML = "My lucky number = " + answer;
+        }
+        
+        }
+
+                    
