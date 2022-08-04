@@ -3,10 +3,27 @@ body {
 }
 
 header {
+    position: relative;
     background-color: transparent;
     border: solid 1px;
 
 }
+
+#logo{
+    position: absolute;
+    left: 0;
+}
+
+#heading{
+    position: absolute;
+}
+
+#menu {
+
+    position: absolute;
+    right: 0;
+}
+
 h1 {
     text-align: center;
 }
@@ -29,22 +46,22 @@ position: relative;
 }
 #herotitle {
     position: absolute;
-    text-shadow: black 1px;
+    text-shadow: 1px 1px black;
     font-size: 60pt;
     color: aliceblue;
     position: absolute;
-    left: 20px;
-    top: 20px;
+    left: 100px;
+    top: 80px;
 }
+
 #herowords {
-    position:absolute;
-    text-shadow: black 1px;
+    position:relative;
+    text-shadow: 1px 1px black;
     font-size: 45pt;
     color: aliceblue;
     position: absolute;
-    left: 20px;
-    top: 200px;
-
+    left: 110px;
+    top: 300px;
 }
 
 .section {
@@ -86,3 +103,4 @@ h2 {
     align-items: center;
 
 }
+

@@ -87,4 +87,10 @@ function clicked() {
         
         }
 
-                    
+function getValue() {
+
+   let jacksValue = document.getElementById("typed").value;
+   console.log(jacksValue);
+   document.getElementById("name").innerHTML = jacksValue;
+
+}                    
