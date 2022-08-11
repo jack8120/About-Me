@@ -3,7 +3,7 @@
 header {
     position: fixed;
     background-color: white;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     height: 100px;
     width: 100%;
 
@@ -24,7 +24,8 @@ header {
     left: 40%;
     text-shadow: 1px 1px black;
     font-size: 20pt;
-    height: 90px;
+    height: 100%;
+    
     /* border: 1px solid black; */
 }
 
@@ -57,7 +58,7 @@ header {
     color: aliceblue;
     position: absolute;
     left: 100px;
-    top: 80px;
+    top: 200px;
 }
 
 #herowords {
@@ -66,8 +67,8 @@ header {
     font-size: 40pt;
     color: aliceblue;
     position: absolute;
-    left: 110px;
-    top: 300px;
+    left: 100px;
+    top: 460px;
 }
 
 .section {
@@ -85,10 +86,17 @@ header {
 
 #sectionpic{
     position: absolute;
-    border: 1px solid blue;
-    width: 25%;
-    left: 0;
-    height: 90%;
+    /* border: 1px solid blue; */
+    width: 10%;
+    height: 100px;
+    margin-top: 80px;
+    margin-left: 50px;
+   
+}
+
+#rok{
+
+    margin-top: 30px;
 }
 #sectioncont{
     position: absolute;
@@ -99,9 +107,6 @@ header {
     height: 85%;
 }
 
-#who {
-
-} 
 
 h3 {
    text-align: center;
